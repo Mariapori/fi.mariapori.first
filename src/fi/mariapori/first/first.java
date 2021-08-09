@@ -6,6 +6,7 @@ public class first extends JavaPlugin {
     public void onEnable() {
     	this.getCommand("dimang").setExecutor(new Dimang());
     	this.getCommand("tele").setExecutor(new Teleport());
+    	this.getCommand("buyop").setExecutor(new BuyOP());
     }
     @Override
     public void onDisable() {
