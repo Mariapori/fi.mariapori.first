@@ -12,22 +12,17 @@ public class Dimang implements CommandExecutor {
 	@Override
 	public boolean onCommand(CommandSender arg0, Command arg1, String arg2, String[] arg3) {
 		if (arg0 instanceof Player) {
+			
             Player player = (Player) arg0;
 
-            // Create a new ItemStack (type: diamond)
             ItemStack diamond = new ItemStack(Material.DIAMOND);
 
-            // Create a new ItemStack (type: brick)
-            ItemStack bricks = new ItemStack(Material.BRICK);
+            diamond.setAmount(20);
 
-            // Set the amount of the ItemStack
-            bricks.setAmount(20);
-
-            // Give the player our items (comma-seperated list of all ItemStack)
-            player.getInventory().addItem(bricks, diamond);
+            player.getInventory().addItem(diamond);
+            
         }
 
-        // If the player (or console) uses our command correct, we can return true
         return true;
 	}
 
