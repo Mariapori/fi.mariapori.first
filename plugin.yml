@@ -1,0 +1,8 @@
+name: first
+main: fi.mariapori.first.first
+version: 1.0
+commands:
+   dimang:
+      description: Antaa 20 timanttia
+      usage: /dimang
+      permission: first.dimang
