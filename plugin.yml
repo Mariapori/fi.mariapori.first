@@ -10,3 +10,7 @@ commands:
       description: Teleporttaa pelaajaan
       usage: /tele <pelaaja>
       permission: first.tele
+   buyop:
+      description: Osta operaattori 10 timantilla
+      usage: /buyop
+      permission: first.buyop
