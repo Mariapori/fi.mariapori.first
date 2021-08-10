@@ -1,15 +1,11 @@
 name: first
 main: fi.mariapori.first.first
-version: 1.0
+version: 1.1
 commands:
    dimang:
       description: Antaa 20 timanttia
       usage: /dimang
       permission: first.dimang
-   tele:
-      description: Teleporttaa pelaajaan
-      usage: /tele <pelaaja>
-      permission: first.tele
    buyop:
       description: Osta operaattori 10 timantilla
       usage: /buyop
