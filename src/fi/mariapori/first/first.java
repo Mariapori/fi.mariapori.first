@@ -6,6 +6,7 @@ public class first extends JavaPlugin {
     public void onEnable() {
     	this.getCommand("dimang").setExecutor(new Dimang());
     	this.getCommand("buyop").setExecutor(new BuyOP());
+    	getServer().getPluginManager().registerEvents(new MyListener(), this);
     }
     @Override
     public void onDisable() {
