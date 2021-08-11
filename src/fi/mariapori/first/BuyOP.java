@@ -13,7 +13,7 @@ public class BuyOP implements CommandExecutor {
 	public boolean onCommand(CommandSender arg0, Command arg1, String arg2, String[] arg3) {
 		if(arg0 instanceof Player) {
 			Player pelaaja = (Player)arg0;
-			ItemStack timangit = new ItemStack(Material.DIAMOND,10);
+			ItemStack timangit = new ItemStack(Material.DIAMOND, 10);
 			if(pelaaja.getInventory().contains(Material.DIAMOND, 10)) {
 				if(pelaaja.isOp()) {
 					pelaaja.sendMessage("Olet jo operaattori!");
